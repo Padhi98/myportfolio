@@ -170,7 +170,7 @@ const Portfolio = () => {
                 Birla Institute of Technology & Science
               </p>
               <p className={`${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-                Jul 2022 - June 2024
+                Jul 2022 - May 2024
               </p>
               
               <div className="mt-6">
@@ -182,6 +182,16 @@ const Portfolio = () => {
                     isDarkMode ? 'bg-green-900 text-green-200' : 'bg-green-100 text-green-800'
                   }`}>
                     Google Cloud Professional DevOps Engineer
+                  </span>
+                  <span className={`px-3 py-1 rounded-full text-sm ${
+                    isDarkMode ? 'bg-green-900 text-green-200' : 'bg-green-100 text-green-800'
+                  }`}>
+                    Google Cloud Professional Cloud Architect
+                  </span>
+                  <span className={`px-3 py-1 rounded-full text-sm ${
+                    isDarkMode ? 'bg-green-900 text-green-200' : 'bg-green-100 text-green-800'
+                  }`}>
+                    Google Cloud Associate Cloud Engineer
                   </span>
                 </div>
               </div>
