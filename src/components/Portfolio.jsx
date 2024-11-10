@@ -36,10 +36,10 @@ const Portfolio = () => {
               <Linkedin className="w-5 h-5 mr-2" />
               <span>LinkedIn</span>
             </a>
-            <a href="https://gitlab.com/Padhi98" 
+            <a href="https://github.com/Padhi98" 
               className={`flex items-center ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-gray-900'}`}>
               <Github className="w-5 h-5 mr-2" />
-              <span>GitLab</span>
+              <span>Github</span>
             </a>
           </div>
         </div>
