@@ -31,7 +31,7 @@ const Portfolio = () => {
               <Mail className="w-5 h-5 mr-2" />
               <span>Email</span>
             </a>
-            <a href="https://linkedin.com/in/ankitapadhi" 
+            <a href="https://www.linkedin.com/in/ankita-padhi/" 
               className={`flex items-center ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-gray-900'}`}>
               <Linkedin className="w-5 h-5 mr-2" />
               <span>LinkedIn</span>
@@ -93,7 +93,7 @@ const Portfolio = () => {
               <li>• Infrastructure as Code (IaC)</li>
               <li>• CI/CD pipeline setup</li>
             </ul>
-            <a href="https://www.ankitapadhi.com" 
+            <a href="https://ankitapadhi.com" 
               className={`inline-block mt-4 ${
                 isDarkMode ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-800'
               }`}>
