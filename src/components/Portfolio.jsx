@@ -203,7 +203,7 @@ const Portfolio = () => {
       <footer className={`${isDarkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'} border-t mt-16`}>
         <div className="max-w-4xl mx-auto px-4 py-8">
           <p className={`text-center ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-            © 2024 - Present Ankita Padhi. Built with React and Tailwind CSS.
+            © 2024 - present Ankita Padhi. Built with React and Tailwind CSS.
           </p>
         </div>
       </footer>
