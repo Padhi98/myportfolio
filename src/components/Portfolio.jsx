@@ -63,7 +63,7 @@ const Portfolio = () => {
               Cognizant, Pune, Maharashtra | Jul 2021 - Present
             </p>
             <ul className={`space-y-3 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-              <li>• Supported 130+ projects/initiatives focusing on data acquisition and processing</li>
+              <li>• Supported 130+ clients every year focusing on data acquisition and processing</li>
               <li>• Saved 4000+ company hours through efficient customer issue resolution</li>
               <li>• Architected 100+ implementations for Fortune 500 clients</li>
               <li>• Led RFx responses contributing to revenue growth</li>
