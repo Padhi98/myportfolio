@@ -20,7 +20,9 @@ const Portfolio = () => {
     }`}>
       <LanternToggle isDark={isDarkMode} onToggle={toggleTheme} />
       
-      <header className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} shadow-sm transition-colors duration-300`}>
+      <header className="relative overflow-hidden">
+        <div className="absolute inset-0 translate-y-[-50%] parallax-bg" />
+        <div className="relative z-10 ${isDarkMode ? 'bg-gray-800' : 'bg-white'} shadow-sm transition-colors duration-300" />
         <div className="max-w-4xl mx-auto px-4 py-16">
           <h1 className={`text-4xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-gray-900'} flex items-center gap-2`}>
             Ankita Padhi
