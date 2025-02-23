@@ -9,11 +9,6 @@ const Portfolio = () => {
     setIsDarkMode(!isDarkMode);
   };
 
-  const handleHeartClick = () => {
-    setIsHeartFilled(!isHeartFilled);
-    window.open('heart.html', '_blank');
-  };
-
   return (
     <div className={`min-h-screen transition-colors duration-300 ${
       isDarkMode ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'
@@ -24,14 +19,7 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto px-4 py-16">
           <h1 className={`text-4xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-gray-900'} flex items-center gap-2`}>
             Ankita Padhi
-            <Heart 
-              className={`cursor-pointer hover:scale-110 transition-transform ${
-                isHeartFilled ? 'fill-current' : ''
-              }`}
-              size={32}
-              onClick={handleHeartClick}
-              color={isDarkMode ? 'white' : 'black'}
-            />
+            
           </h1>
           <p className={`text-xl mb-6 ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
             Google Cloud Platform Subject Matter Expert
