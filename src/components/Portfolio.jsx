@@ -129,10 +129,10 @@ const Portfolio = () => {
             <div className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} rounded-lg shadow-sm p-6`}>
               <div className="mb-4">
                 <h3 className={`font-semibold mb-2 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-                  Programming Languages
+                  Containerisation
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Python', 'BASH', 'SQL'].map(skill => (
+                  {['Kubernetes', 'Docker', 'Helm', 'Prometheus', 'Grafana', 'Hashicorp Vault'].map(skill => (
                     <span key={skill} className={`px-3 py-1 rounded-full text-sm ${
                       isDarkMode ? 'bg-blue-900 text-blue-200' : 'bg-blue-100 text-blue-800'
                     }`}>
@@ -148,14 +148,22 @@ const Portfolio = () => {
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    'GCP Compute',
-                    'BigQuery',
-                    'Dataproc',
-                    'Cloud Storage',
-                    'Pub/sub',
-                    'Chronicle',
-                    'Bigtable',
-                    'Sklearn'
+                    'Jenkins',
+                    'ArgoCD',
+                    'Bitbucket',
+                    'Gitlab',
+                    'Terraform',
+                    'Ansible',
+                    'Google Cloud Platform',
+                    'IAM',
+                    'VPC',
+                    'Autoscaling',
+                    'Python',
+                    'HTML',
+                    'CSS',
+                    'Bash',
+                    'Git',
+                    'Agile'
                   ].map(skill => (
                     <span key={skill} className={`px-3 py-1 rounded-full text-sm ${
                       isDarkMode ? 'bg-blue-900 text-blue-200' : 'bg-blue-100 text-blue-800'
