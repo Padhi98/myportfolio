@@ -54,22 +54,6 @@ const Portfolio = () => {
               Work Experience
             </h2>
           </div>
-          
-          <div className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} rounded-lg shadow-sm p-6`}>
-            <h3 className={`text-xl font-semibold mb-2 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-              Devops Engineer
-            </h3>
-            <p className={`mb-4 ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-              Cognizant, Pune, Maharashtra | Jan 2023 - Present
-            </p>
-            <ul className={`space-y-3 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-              <li>• Migrated custom applications to Docker and Kubernetes (GKE), utilizing custom Helm charts for efficient deployment and management.</li>
-              <li>• Created development and deployment workflows, enabling faster development cycles and improving team productivity.</li>
-              <li>• Automated infrastructure provisioning with Terraform, improving resource management and consistency.</li>
-              <li>• Monitored system performance and logs using Prometheus, Grafana, and Stackdriver, reducing incidents by 30%.</li>
-              <li>• Secured cloud environments with IAM policies, firewall rules, and encryption mechanisms.</li>
-            </ul>
-            <br></br>
             <h3 className={`text-xl font-semibold mb-2 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
               Google Cloud Platform (Subject Matter Expert)
             </h3>
