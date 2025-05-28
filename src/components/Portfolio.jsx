@@ -58,7 +58,7 @@ const Portfolio = () => {
               Google Cloud Platform (Subject Matter Expert)
             </h3>
             <p className={`mb-4 ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-              Cognizant, Pune, Maharashtra | Jul 2021 - Dec 2022
+              Cognizant, Pune, Maharashtra | Jul 2021 - Present
             </p>
             <ul className={`space-y-3 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
               <li>• Supported 130+ clients every year focusing on data acquisition and processing</li>
